@@ -9,7 +9,7 @@ on:
 
 jobs:
   windows-vst3:
-    runs-on: windows-latest
+    runs-on: windows-2022     # pinned: has Visual Studio 2022 (the "17 2022" generator below)
     defaults:
       run:
         shell: pwsh
